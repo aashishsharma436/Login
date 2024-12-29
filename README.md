@@ -1,7 +1,24 @@
-This is Login application
-in which you can save the user data for any organization.
+## Project Name: Centralized Login System
+It provides the one login system to all over the applications in the organizations
 
-It provides the JWT token to login in any of the application
-You can login into via using "Login with OTP" or "Login with password"
+## Contents
+- Save complete data about the user
+- Provide the username and work email to the user
 
-when any new user added, then he needs to verify it personal email and mobile number verification purpose
+## Introduction
+This Project provide the centralized login system to the organizations, it save all the information about the user when 
+it onboards, It provides the unique username and work email to user. Verify the personal email and mobile number via OTP.
+It provides the JWT token for 10hrs.
+
+### Prerequisites
+- java 23 
+- Reddis or Docker (if you have docker then just run this command)
+
+## commands to run
+- 'mvn clean install'
+- 'docker run --name redis -p 6379:6379 -d redis'
+
+## Enhancements
+- Provide all the information about hierarchy.
+- Verify Govt Document like Aadhaar or Pan Card.
+- Make it more robust for multiple organizations.
