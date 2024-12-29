@@ -14,7 +14,7 @@ It provides the JWT token for 10hrs.
 - java 23 
 - Reddis or Docker (if you have docker then just run this command)
 
-## commands to run
+## Commands to run
 - 'mvn clean install'
 - 'docker run --name redis -p 6379:6379 -d redis'
 
